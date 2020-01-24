@@ -128,6 +128,7 @@ p {
   border: 1px solid #fff;
 }
 
+/* section 2 */
 .center .container-2 {
   padding: 100px 0 100px;
   text-align: center;
@@ -147,13 +148,16 @@ p {
   padding: 40px;
 }
 
+/* section 3 */
 .section-3 {
   background-color: #f6f7f9;
   padding: 60px 0 100px;
 }
 
 .container-3 {
-  display: inline-flex;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .section-3 #section-3-header {
@@ -162,16 +166,29 @@ p {
 
 .section-3 #section-3-img {
   padding: 45px 0 0 55px;
-  width: 60%;
+  flex-basis: 60%;
 }
 
 .section-3 .section-3-text {
   display: flex;
   flex-direction: column;
   padding: 45px 150px 0 70px;
-  width: 40%;
+  flex-basis: 40%;
+  align-items: center;
 }
 
 .section-3 .section-3-text p {
   padding: 0 0 20px;
+}
+
+/* section 4 */
+.section-4 {
+  background-color: #fff;
+  padding: ;
+}
+
+.section-4 .container-4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
