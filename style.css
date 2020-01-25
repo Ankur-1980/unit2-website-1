@@ -36,16 +36,18 @@ p {
   font-weight: 500;
   color: #444;
   padding-bottom: 5px;
+  margin: 0;
 }
 
 .divider {
   background-color: #bb1600;
   width: 70px;
   height: 2px;
+  margin: 10px 0 30px 0;
 }
 
 .centered {
-  margin: auto;
+  margin: 10px auto 30px auto;
 }
 
 .start-here {
@@ -53,6 +55,7 @@ p {
   height: 45px;
   font-size: 18px;
   text-align: center;
+  text-transform: uppercase;
   vertical-align: middle;
   line-height: 45px;
   color: #fff;
@@ -210,8 +213,61 @@ p {
   flex-basis: 40%;
 }
 
+/* section 5 */
 .section-5 {
   background-color: #f6f7f9;
   text-align: center;
   padding: 100px 0 60px;
+}
+
+.section-5 .section-5-highlights {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0 40px;
+}
+
+.section-5 .highlight-box {
+  margin: 0 40px;
+}
+
+.section-5 .highlight-box-icon {
+  margin: 70px 0 0;
+}
+
+.section-5 h4 {
+  font-size: 22px;
+  margin-top: 20px;
+  color: #444;
+}
+
+footer {
+  background-color: #333;
+  padding: 40px 100px 20px 150px;
+  display: grid;
+  grid-template-columns: 25% 20% 20% 20%;
+  grid-column-gap: 25px;
+}
+
+h5 {
+  font-size: 22px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+footer .footer-box {
+  display: flex;
+  flex-direction: column;
+  padding-right: 20px;
+}
+
+footer p {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+footer .footer-link {
+  font-size: 16px;
+  padding: 5px 0;
 }
