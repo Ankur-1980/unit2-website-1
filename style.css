@@ -42,14 +42,15 @@ section {
 
 .start-here {
   background: #bb1600;
-  width: 200px;
   vertical-align: middle;
+  width: 200px;
 }
 
 .clear-btn {
   background: transparent;
   border: 1px solid #fff;
-  padding: 20px;
+  /* padding: 20px; */
+  width: 100px;
   margin-left: 250px;
 }
 
@@ -200,7 +201,7 @@ section {
 .container-4 .section-4-text {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  align-items: flex-end;
   text-align: right;
   padding: 0 70px 0 150px;
 }
